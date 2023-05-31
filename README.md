@@ -1,4 +1,5 @@
 # ePuja-online-puja-services
+## The website e-puja-online-service.png has been converted to a png format.
 ePuja is India's  online portal that offers online puja booking service.
 
 ePuja is an online portal based in India that provides a platform for booking puja services online. 
