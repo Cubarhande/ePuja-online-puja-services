@@ -1,0 +1,436 @@
+@import url(../Fonts/ellis___.ttf);
+
+* {
+    line-height: 1.5em;
+    font-family: "ellis", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+  --color-gray:#3f0009;
+  --color-light-gray:#7a0b14;
+  --color-red:#e00e0f;
+  --color-orange:#fe611e;
+  --color-yellow:#fec715;
+  --color--light-orange:#ffc3a9;
+}
+
+
+
+
+
+
+
+/*  */
+header .overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+header .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+header .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+ header .overlay a:hover,header .overlay a:focus {
+  color: #f1f1f1;
+}
+
+header .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  header .overlay a {font-size: 20px}
+  header .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*  */
+@media screen and (min-width:992px){
+  .nav-item {
+  line-height:80px;
+  }
+}
+
+.bg-header{
+background-image: url(../img/Durga-Puja-2016-Netherlands-2-1024x766.jpg);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+}
+.nav-link{
+  font-size: 2rem;
+}
+.navbar-brand{
+  background-image: url(../kallol-images/logo-bg.png);
+  
+  
+}
+/* .bg-header-img{
+  background: url(../kallol-images/gradiat_images.png);
+  opacity:1;
+  background-size: 100vh;
+  position: inherit;
+ 
+
+} */
+ /* .linerar{
+  background: url(../kallol-images/gradiat_images.png);
+  background-position: top;
+  background-size: cover;
+  
+ 
+  
+ 
+
+}  */
+.bg-head{
+  background-image:url(../kallol-images/Durga-Puja-2016-Netherlands-2-1024x766.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.bg-logo{
+  background-image: url(../kallol-images/logo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+    background-position: center;
+    background-attachment: local;
+
+}
+
+.popup-btn{
+  position: fixed;
+  width: 150px;
+  height: 70px;
+  left: -50px;
+  top: 50%;
+  background-color: var(--color-orange);
+  padding: 10px;
+  -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0;
+    z-index: 999;
+    
+}
+.popup-btn a{
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.text-yellow{
+  color: var(--color-yellow);
+}
+
+
+.site-footer {
+  background-color: #838383;
+	text-align: center;
+	margin: 10px 0; 
+
+}
+/* btn */
+
+.btn{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  
+}
+#btn-register{
+  background-color: var(--color-orange);
+  color: white;
+  padding: 1rem 1.5rem;
+    border-radius: 20px;
+
+}
+#btn-event{
+  background-color: var(--color-yellow);
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+}
+#btn-read-more{
+  background-color: var(--color-yellow);
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+}
+
+#btn-submit{
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  background-color: var(--color-gray);
+  color: white;
+}
+/*  */
+.box {
+  padding: 2rem;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+
+.box p {
+  position: relative;
+  margin: -3rem 0 2rem 1rem;
+  padding: 1rem;
+  background-color: #04AA6D;
+  color: #ffffff;
+}
+
+
+
+.sign-up{
+  background-color: #330000;
+  color: white
+  
+}
+.welcome-text{
+  position: relative;margin: -30px -30px 0 30px;border-radius: 2px;
+  background-color: var(--color-orange);
+
+}
+.bg-wel{
+  background-color: #ffc3a9;
+}
+.bg-about{
+  background-image:url('./assets/kallol-images/about-us-flower.png');background-repeat: no-repeat;background-size: 150px;
+}
+/* pricing  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.pricing-table {
+  /* background-color: #eee; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pricing-table .block-heading h2 {
+  color: #3b99e0;
+}
+
+.pricing-table .block-heading p {
+  text-align: center;
+  max-width: 420px;
+  margin: auto;
+  opacity: 0.7;
+}
+
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.pricing-table .item {
+  /* background-color: #ffffff; */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  /* border-top: 2px solid #5ea4f3; */
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px;
+}
+
+.pricing-table .item button {
+  font-weight: 600;
+}
+
+.pricing-table .ribbon {
+  width: 168px;
+  height: 80px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: var(--color-yellow);
+  transform: rotate(45deg);
+  position: absolute;
+  right: -65px;
+  top: -15px;
+  padding-top: 45px;
+}
+
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.bg-yellow{
+  background-color: #fec715;
+}
+
+.pricing-table .item img{
+  width: 100%;
+  background-position: center;
+background-size: cover;
+min-height: 200px;
+}
+.Sponsers .fa.pull-right {
+ 
+  font-size: 60px;
+  color: white;
+  font-weight: 900;
+}
+.Sponsers li{
+  background-color: var(--color-yellow);
+  padding: 7px;
+    margin: 7px 10px 10px 7px;
+}
+
+.pricing-table .features .feature {
+  font-weight: 600;
+}
+
+.pricing-table .features h4 {
+  /* text-align: center; */
+  font-size: 18px;
+  padding: 5px;
+}
+
+.pricing-table .price h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  /* text-align: center; */
+  color: #2288f9;
+}
+
+.pricing-table .buy-now button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  padding: 9px 0;
+}
+.price-box{
+  background-color: var(--color-yellow);
+  border-radius: 2px;
+   /* background-image: url(../kallol-images/logo-bg.png);  */
+background-repeat: no-repeat;
+
+
+
+/* background-position: top; */
+
+}
+
+
+.price-box h2{
+  color: var(--color-red);
+  font-weight: 700;
+}
+.price-box h4{
+  border-bottom: 2px solid black;
+  margin: 0 10px;
+}
+
+.value {
+  float: right;
+  color: white;
+}
+
+#social-wrapper {
+	text-align: center;
+}
+
+.activities .card-body{
+  background-color: var(--color-orange);
+  border-radius: 0px 0px 7px 8px;
+  
+  color: white;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-icon{
+  background-color: var(--color-yellow);
+  border-radius: 20px;
+  max-width: 400px;
+  /* text-align: center; */
+  align-items: center;
+  align-content: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper ul li {
+	display: inline;
+    margin: 0px 15px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+ .social-wrapper ul li a{
+   color: var(--color-orange);
+   text-decoration: none;
+
+ }
+
+.footer-nav{
+  background-color: var(--color-orange);
+  padding: 15px 0;
+}
+
+.bg-social-connection{
+  background-color: var(--color--light-orange);
+  /* padding: 20px; */
+}
+
+
+.footer-nav p {
+	text-align: center;
+  color: white;
+}
+
+
+/*  */
+
+/*  */
+
